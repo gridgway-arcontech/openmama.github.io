@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['deactivate',['deactivate',['../classWombat_1_1MamdaBasicSubscription.html#a08fea356e431659a445fa51f1771e915',1,'Wombat::MamdaBasicSubscription::deactivate()'],['../classWombat_1_1MamdaSubscription.html#ac4466ddd103f5ba5b0bf3d6f13a327c3',1,'Wombat::MamdaSubscription::deactivate()']]],
+  ['deleteentriesfromsource',['deleteEntriesFromSource',['../classWombat_1_1MamdaOrderBook.html#a475d7893f41395c0f4ba06a503ab114b',1,'Wombat::MamdaOrderBook::deleteEntriesFromSource()'],['../classWombat_1_1MamdaOrderBookPriceLevel.html#abf63aa01d9802e49874653746b521024',1,'Wombat::MamdaOrderBookPriceLevel::deleteEntriesFromSource()']]],
+  ['deleteentry',['deleteEntry',['../classWombat_1_1MamdaOrderBook.html#a027cf7c0439c3952475a678ddbf26f60',1,'Wombat::MamdaOrderBook']]],
+  ['deletelevel',['deleteLevel',['../classWombat_1_1MamdaOrderBook.html#a3e9404b31ed55a5b5b82ac1b0064aacd',1,'Wombat::MamdaOrderBook']]],
+  ['destroy',['destroy',['../classWombat_1_1MamdaSubscription.html#aac174832862f54a4efe387dabf0766cb',1,'Wombat::MamdaSubscription']]],
+  ['detach',['detach',['../classWombat_1_1MamdaOrderBook.html#a503c960afbcdea3ddae2d58812a41708',1,'Wombat::MamdaOrderBook::detach(MamdaOrderBookPriceLevel *level)'],['../classWombat_1_1MamdaOrderBook.html#ad24551ff578bd714feb260dc1a5db8a0',1,'Wombat::MamdaOrderBook::detach(MamdaOrderBookEntry *entry)']]],
+  ['dump',['dump',['../classWombat_1_1MamdaOrderBook.html#ad2baca01fcfd9392cfb59a4044ab91cf',1,'Wombat::MamdaOrderBook::dump()'],['../classWombat_1_1MamdaOrderBookBasicDelta.html#a61798136f2455ee54be68cde4e9c4eb5',1,'Wombat::MamdaOrderBookBasicDelta::dump()'],['../classWombat_1_1MamdaOrderBookBasicDeltaList.html#ac4c2c10fb28aff1af84b8582b8da3e48',1,'Wombat::MamdaOrderBookBasicDeltaList::dump()'],['../classWombat_1_1MamdaOrderBookEntryManager.html#ae7bef61d8880f878a7507ceec36a829b',1,'Wombat::MamdaOrderBookEntryManager::dump()'],['../classWombat_1_1MamdaOptionChain.html#a9149b46f6ba398eb7f3ef458cc43a09c',1,'Wombat::MamdaOptionChain::dump()']]]
+];

@@ -1,0 +1,98 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: OpenMAMA Technical Documentation
+  folders:
+
+  - title: Introduction
+    output: web
+    folderitems:
+    - title: OpenMAMA Documentation Project
+      url: /index.html
+      output: web
+
+#  - title: Quick Start Guides
+#    output: web
+#    folderitems:
+#    - title: Crash Course in Concepts
+#      url: /openmama.html
+#      output: web
+#      type: homepage
+#    - title: Basic Pub / Sub
+#      url: /openmama_introduction.html
+#      output: web
+#    - title: Request / Reply
+#      url: /openmama_introduction.html
+#      output: web
+#    - title: Market Data Pub / Sub
+#      url: /openmama_introduction.html
+#      output: web
+
+  - title: App Developer's Guide
+    output: web
+    folderitems:
+    - title: MAMA C
+      url: /openmama_developers_guide_mama_c.html
+      output: web
+    - title: MAMA C++
+      url: /openmama_developers_guide_mama_cpp.html
+      output: web
+    - title: MAMA C#
+      url: /openmama_developers_guide_mama_cs.html
+      output: web
+    - title: MAMDA (C++ / C# / Java)
+      url: /openmama_developers_guide_mamda.html
+      output: web
+
+  - title: Reference Documentation
+    output: web
+    folderitems:
+    - title: MAMA C
+      url: /openmama_reference_documentation_mama_c.html
+      output: web
+    - title: MAMA C++
+      url: /openmama_reference_documentation_mama_cpp.html
+      output: web
+    - title: MAMA C#
+      url: /openmama_reference_documentation_mama_cs.html
+      output: web
+    - title: MAMA Java
+      url: /openmama_reference_documentation_mama_java.html
+      output: web
+    - title: MAMDA C++
+      url: /openmama_reference_documentation_mamda_cpp.html
+      output: web
+    - title: MAMDA C#
+      url: /openmama_reference_documentation_mamda_cs.html
+      output: web
+    - title: MAMDA Java
+      url: /openmama_reference_documentation_mamda_java.html
+      output: web
+
+#  - title: Bridge Developer's Guide
+#    output: web
+#    folderitems:
+#    - title: Bridge Developer Documentation
+#      external_url: https://github.com/OpenMAMA/OpenMAMA/wiki/Bridge-Documentation
+#      output: web
+
+#  - title: RFC Documents
+#    output: web
+#    folderitems:
+#    - title: Open
+#      url: /openmama_rfc_open.html
+#      output: web
+#    - title: Closed
+#      url: /openmama_rfc_closed.html
+#      output: web
+
+  - title: Contribute
+    output: web
+    folderitems:
+    - title: Contributing to Documentation
+      url: /openmama_contribute_documentation.html
+      output: web
+    - title: Contributing Code to OpenMAMA
+      external_url: http://www.openmama.org/get-involved
+      output: web
