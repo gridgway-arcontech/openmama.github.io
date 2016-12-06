@@ -17,7 +17,17 @@ The OpenMAMA documentation project has been designed using github pages for a fe
 This page aims to empower you to getting started with contributing documentation with minimal fuss and most of
 the documentation is taken from the official documentation theme's website.
 
-### 1. Fork the reposotory
+## 1. Small Changes
+
+For small changes, simply click the `Edit me` button that you'll find on any page. You'll be asked to make changes which github will change
+into a pull request for you. Alternatively if you have write access to the repository, you can push it straight
+into the master branch.
+
+## 2. Large Changes
+
+For larger changes you may want to preview locally before submitting. If that's the case, this section is for you.
+
+### 2.1. Fork the reposotory
 
 First things first you're recommended to fork the repository on github. If you don't already have a github
 account, you'll need to create one, then navigate to [https://github.com/OpenMAMA/openmama.github.io](https://github.com/OpenMAMA/openmama.github.io)
@@ -25,16 +35,16 @@ and press the `Fork` button to fork your own copy of the repo. This will give yo
 can do what you like with. You are also recommended to run `git checkout -b descriptive-branch-name-for-your-changes` to ensure any
 changes that you contribute back are done from an isolated feature branch.
 
-### 2. Clone the reposotory
+### 2.2. Clone the reposotory
 
 Locally, clone the repository *from your fork*. (`git clone https://github.com/yourusername/openmama.github.io.git`)
 
-### 3. Install Ruby and Development Kit
+### 2.3. Install Ruby and Development Kit
 
 Install [ruby and the ruby development kit](http://rubyinstaller.org/downloads/) following instructions from that link and add ruby to
 your default `PATH` environment variable.
 
-### 3. Install Prerequisites
+### 2.3. Install Prerequisites
 
 Now open up a command prompt (on either linux or windows) and navigate to the location of the checked out clone of `github.openmama.io`.
 Once you're inside, run the following commands:
@@ -46,11 +56,11 @@ bundle update
 This will install jekyll and bundler, and use bundler to resolve dependencies for this repository.
 If you're getting issues with SSL when trying to do this, see [this stack overflow article](http://stackoverflow.com/questions/20399531/how-to-tell-gem-command-not-to-use-ssl).
 
-### 4. Make your changes
+### 2.4. Make your changes
 
 See [this link](https://github.com/tomjohnson1492/documentation-theme-jekyll) for details on how to make changes to the documentation.
 
-### 5. Preview your changes
+### 2.5. Preview your changes
 
 You can run the following to run jekyll as a server on the localhost, so that navigating to https://localhost:4000 will take you to a preview of
 your documentation changes:
@@ -59,17 +69,17 @@ your documentation changes:
 bundle exec jekyll serve
 ```
 
-### 6. Commit your changes
+### 2.6. Commit your changes
 
 Once you are happy, perform the usual git add / commit / push to push your changes back to your own fork repository.
 
-### 7. Create pull request
+### 2.7. Create pull request
 
 Once you're happy, navigate to [https://github.com/OpenMAMA/openmama.github.io](https://github.com/OpenMAMA/openmama.github.io)
 and you should be presented with an invitation to create a pull request which will lead you to a form which you can fill in
 detailing the nature of the change.
 
-### 8. Wait for us to read :)
+### 2.8. Wait for us to read :)
 
 It may take us a little time to review and approve the change. Once we have reviewed and any suggested changes have been
 made, it'll get submitted to the main repository and the page will live update!
