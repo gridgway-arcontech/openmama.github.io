@@ -8,4 +8,4 @@ toc: true
 
 <a href="reference/mama/c" target="_blank">Click here to open documentation in its own window</a>
 
-<iframe frameborder="no" src="reference/mama/c" width="1000" height="800"/>
+<iframe frameborder="no" src="reference/mama/c/index.html" width="1000" height="800"/>

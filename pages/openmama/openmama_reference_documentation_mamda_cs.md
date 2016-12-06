@@ -8,4 +8,4 @@ toc: true
 
 <a href="reference/mamda/cs" target="_blank">Click here to open documentation in its own window</a>
 
-<iframe frameborder="no" src="reference/mamda/cs" width="1000" height="800"/>
+<iframe frameborder="no" src="reference/mamda/cs/index.html" width="1000" height="800"/>
