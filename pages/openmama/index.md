@@ -17,5 +17,3 @@ currently find documentation for OpenMAMA across several disparate sources:
 
 This has proven to be confusing to newcomers to the project so we have created this project with the primary goal of consolidating all official technical
 documentation for OpenMAMA under one resource.
-
-You can find details on how to generate this documentation locally in the [documentation project's README file](https://github.com/OpenMAMA/openmama.github.io/blob/master/README.md).
