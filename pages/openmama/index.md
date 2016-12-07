@@ -1,5 +1,5 @@
 ---
-title: OpenMAMA Documentation Project
+title: OpenMAMA Technical Documentation Project
 sidebar: openmama_sidebar
 permalink: index.html
 folder: openmama
