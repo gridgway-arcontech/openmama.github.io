@@ -77,15 +77,15 @@ entries:
 #      external_url: https://github.com/OpenMAMA/OpenMAMA/wiki/Bridge-Documentation
 #      output: web
 
-#  - title: RFC Documents
-#    output: web
-#    folderitems:
-#    - title: Open
-#      url: /openmama_rfc_open.html
-#      output: web
-#    - title: Closed
-#      url: /openmama_rfc_closed.html
-#      output: web
+  - title: RFC Documents
+    output: web
+    folderitems:
+    - title: Open
+      url: /openmama_rfc_open.html
+      output: web
+    - title: Closed
+      url: /openmama_rfc_closed.html
+      output: web
 
   - title: Contribute
     output: web
