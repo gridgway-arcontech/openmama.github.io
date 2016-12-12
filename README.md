@@ -1,4 +1,9 @@
-## OpenMAMA Technical Documentation Project
+---
+title: OpenMAMA Technical Documentation Project
+sidebar: openmama_sidebar
+folder: openmama
+toc: false
+---
 
 Welcome to the new home of all OpenMAMA related technical Documentation.
 

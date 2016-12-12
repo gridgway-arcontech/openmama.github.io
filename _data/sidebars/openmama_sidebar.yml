@@ -80,14 +80,17 @@ entries:
   - title: RFC Documents
     output: web
     folderitems:
-    - title: Process
-      url: /openmama_rfc_process.html
-      output: web
     - title: Open
       url: /openmama_rfc_open.html
       output: web
     - title: Closed
       url: /openmama_rfc_closed.html
+      output: web
+    - title: Process
+      url: /openmama_rfc_process.html
+      output: web
+    - title: Template
+      url: /openmama_rfc_template.html
       output: web
 
   - title: Contribute
