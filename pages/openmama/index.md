@@ -17,3 +17,5 @@ currently find documentation for OpenMAMA across several disparate sources:
 
 This has proven to be confusing to newcomers to the project so we have created this project with the primary goal of consolidating all official technical
 documentation for OpenMAMA under one resource.
+
+The project is built on [Tom Johnson's extremely impressive documentation theme for jekyll](http://idratherbewriting.com/documentation-theme-jekyll/).

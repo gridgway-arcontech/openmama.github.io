@@ -1,19 +1,15 @@
-## OpenMAMA Technical Documentation Repository
+## OpenMAMA Technical Documentation Project
 
-This is the github repository behind [http://openmama.github.io](http://openmama.github.io) which is built on
-[Tom Johnson's extremely impressive documentation theme for jekyll](http://idratherbewriting.com/documentation-theme-jekyll/).
+Welcome to the new home of all OpenMAMA related technical Documentation.
 
-## Running the site locally in Docker
+Much of the documentation for OpenMAMA as it stands today is pretty fragmented. You can
+currently find documentation for OpenMAMA across several disparate sources:
 
-You can also use Docker to directly build and run the site on your local machine. Just clone the repo and run the following from your working dir:
+* [The official OpenMAMA webpage](http://www.openmama.org/content/quick-start-guide) containing several succinct tutorials and quick start guides
+* [The official OpenMAMA documentation](http://www.openmama.org/documentation) (reference and developer guide in PDF format)
+* [The github wiki page](https://github.com/OpenMAMA/OpenMAMA/wiki) (mainly focused at internal affairs and bridge development)
 
-```
-docker build --no-cache -t mydocs .
-```
+This has proven to be confusing to newcomers to the project so we have created this project with the primary goal of consolidating all official technical
+documentation for OpenMAMA under one resource.
 
-Once the build is complete, you can mount and run the whole site as follows:
-
-```
-docker run -v "$PWD:/src" -p 4000:4000 mydocs serve -H 0.0.0.0
-```
-
+The project is built on [Tom Johnson's extremely impressive documentation theme for jekyll](http://idratherbewriting.com/documentation-theme-jekyll/).
