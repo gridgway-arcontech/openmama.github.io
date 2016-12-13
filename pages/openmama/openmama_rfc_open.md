@@ -11,12 +11,10 @@ toc: false
 
 [comment]: <> (## There are currently no open RFCs awaiting review)
 
-
 [comment]: <> (Uncomment the lines below when an RFC is in-flight)
 
 ## RFCs currently in review
 
-| RFC Title | Proposer  | Raised     | Agreed | Merged | Released | Discussed | Document | Changes |
-| --------- | --------- | ---------- | ------ | ------ | -------- | --------- | -------- | ------- |
-| Extended MAMA DateTime | [Frank Quinn](https://github.com/fquinner) | N/A | N/A | N/A | TBC | N/A | [View](openmama_rfc_extended_datetime.html) | N/A |
-
+| RFC Title              | Proposer                                   | Raised     | Agreed     | Merged  | Released | Discussed                                                                     | Document                                    | Changes |
+| ---------------------- | ------------------------------------------ | ---------- | ---------- | ------- | -------- | ----------------------------------------------------------------------------- | ------------------------------------------- | ------- |
+| Extended MAMA DateTime | [Frank Quinn](https://github.com/fquinner) | 2016-12-13 | Pending    | Pending | Pending  | [Archive](https://lists.openmama.org/pipermail/openmama-dev/2016/001944.html) | [View](openmama_rfc_extended_datetime.html) | Pending |
