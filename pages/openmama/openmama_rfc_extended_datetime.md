@@ -46,8 +46,9 @@ structure is provided [later in the document](#internal-data-structure-changes).
 
 ### Create Extended Methods
 
-This involves considering every MAMA method available today, and if the method does not currently supported extended
-ranges (due to an insufficient function prototype or method signature), create new methods which do.
+This involves considering every MAMA datetime method available today, and if the method does not currently 
+supported extended ranges (due to an insufficient function prototype or method signature), create new methods
+which do.
 
 This involves adding the following methods in C:
 
@@ -337,7 +338,7 @@ for users who require access to the extended datetime format.
 ### Impact to Bridge Developers
 
 As this change will effectively break the bridge interface for any payload bridges which use direct access to the underlying
-mama_u64_t data type. This means that the minor version in OpenMAMA will need to change to reflect this as permalink
+mama_u64_t data type. This means that the minor version in OpenMAMA will need to change to reflect this as per
 [our versioning standard](https://github.com/OpenMAMA/OpenMAMA/wiki/OpenMAMA-Versioning). 
 
 The payload bridge will be responsible for ensuring that:
