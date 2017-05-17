@@ -11,10 +11,30 @@ entries:
     - title: OpenMAMA Documentation Project
       url: /index.html
       output: web
+    - title: Supported Platforms
+      url: /openmama_supported_platforms.html
+      output: web
+    - title: FAQ
+      url: /openmama_faq.html
+      output: web
+    - title: Versioning
+      url: openmama_versioning.html
+      output: web
 
-#  - title: Quick Start Guides
-#    output: web
-#    folderitems:
+  - title: User Guides
+    output: web
+    folderitems:
+    - title: Running Example Apps
+      url: /openmama_quick_start_guide_running_openmama_apps.html
+      output: web
+    - title: Qpid Bridge
+      url: /openmama_qpid_bridge.html
+      output: web
+    - title: Raising Issues
+      url: /openmama_raising_issues.html
+      output: web
+
+
 #    - title: Crash Course in Concepts
 #      url: /openmama.html
 #      output: web
@@ -29,23 +49,23 @@ entries:
 #      url: /openmama_introduction.html
 #      output: web
 
-  - title: App Developer's Guide
+  - title: Developer Guides
     output: web
     folderitems:
-    - title: MAMA C
-      url: /openmama_developers_guide_mama_c.html
+    - title: Complete Developer Guides
+      url: /openmama_developers_guide_legacy.html
       output: web
-    - title: MAMA C++
-      url: /openmama_developers_guide_mama_cpp.html
-      output: web
-    - title: MAMA C#
-      url: /openmama_developers_guide_mama_cs.html
-      output: web
-    - title: MAMDA (C++ / C# / Java)
-      url: /openmama_developers_guide_mamda.html
-      output: web
+#    - title: Introduction to OpenMAMA
+#      url: /openmama_developers_guide_introduction.html
+#      output: web
+#    - title: Installing OpenMAMA
+#      url: /openmama_developers_guide_mama_cs.html
+#      output: web
+#    - title: Bridges in OpenMAMA
+#      url: /openmama_developers_guide_mamda.html
+#      output: web
 
-  - title: Reference Documentation
+  - title: API Reference Docs
     output: web
     folderitems:
     - title: MAMA C
@@ -68,6 +88,46 @@ entries:
       output: web
     - title: MAMDA Java
       url: /openmama_reference_documentation_mamda_java.html
+      output: web
+
+  - title: Contributor Guides
+    output: web
+    folderitems:
+    - title: Building From Source
+      url: /openmama_build_instructions.html
+      output: web
+    - title: Bridge Building Documentation
+      url: /openmama_bridge.html
+      output: web
+    - title: Bridge Developer FAQ
+      url: /openmama_bridge_developer_faq.html
+      output: web
+    - title: Bridge Incorporation Guidelines
+      url: /openmama_bridge_incorporation_guidelines.html
+      output: web
+    - title: Coding Standards
+      url: /openmama_coding_standards.html
+      output: web
+    - title: Commit Guidelines
+      url: /openmama_commit_guidelines.html
+      output: web
+    - title: Development Process
+      url: /openmama_development_process.html
+      output: web
+    - title: Dynamic Bridge Loading
+      url: /openmama_dynamic_bridge_loading.html
+      output: web
+    - title: Feature Branch Process
+      url: /openmama_feature_branch_process.html
+      output: web
+    - title: Release Process
+      url: /openmama_release_process.html
+      output: web
+    - title: Submission Process
+      url: /openmama_submission_process.html
+      output: web
+    - title: Unit Testing
+      url: /openmama_unit_testing.html
       output: web
 
 #  - title: Bridge Developer's Guide
@@ -93,7 +153,7 @@ entries:
       url: /openmama_rfc_template.html
       output: web
 
-  - title: Contribute
+  - title: Get Involved
     output: web
     folderitems:
     - title: Contributing to Documentation
