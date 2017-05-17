@@ -114,36 +114,35 @@ No other changes are required at C# or Java layer on the interface side.
 * Significant effort required
 * Not every possible method has an extended equivalent
 
-### Adding timeval methods
+### Adding timespec methods
 
-A method already exists to allow a timeval struct to be populated from a mamaDateTime object (`mamaDateTime_getStructTimeVal`.
+_Note this was formerly related to using timeval, until [we spotted some problems on windows](https://lists.openmama.org/pipermail/openmama-dev/2017/001973.html)_
+
+A method already exists to allow a timespec struct to be populated from a mamaDateTime object (`mamaDateTime_getStructTimeSpec`.
 This approach involves adding a corresponding "setter" for this method, so that it can be used instead. 
 
 This means adding the following methods in C:
 
-* `mamaDateTime_setFromStructTimeVal`
-
-And adding the following methods in C++:
-
-* `MamaDateTime::setFromStructTimeVal`
+* `mamaDateTime_setFromStructTimeSpec`
 
 No other changes are required at C# or Java layer on the interface side.
 
-#### Pros for adding timeval methods
+#### Pros for adding timespec methods
 
 * Lowest effort required
 * Builds on a standard POSIX method
-* Provides native integration with most POSIX functions which expect timeval struct pointers in their interfaces
+* Provides native integration with most POSIX functions which expect timespec struct pointers in their interfaces
 
-#### Cons for adding timeval methods
+#### Cons for adding timespec methods
 
 * Not every possible method has an extended equivalent
-* Alternative methods would need to be used for 32-bit platforms where `struct timeval` typically uses a 32 bit signed int
+* Alternative methods would need to be used for 32-bit platforms where `struct timespec` typically uses a 32 bit signed int
   to represent seconds since epoch.
+* Not natively available on older versions of MSVC.
 
 ## Recommended Design Approach
 
-At the interface level, [adding timeval methods](#adding-timeval-methods) is the most straight forward, in that it simply involves the addition
+At the interface level, [adding timespec methods](#adding-timespec-methods) is the most straight forward, in that it simply involves the addition
 of a single new interface. It is also the method with the lowest effort involved and the method which conforms closest with POSIX standard
 conventions.
 
@@ -151,7 +150,7 @@ In this model, the existing `mamaDateTime` accessor methods would not be changed
 ranges will continue to do so, while those with a more limited range will continue to provide only values within that range. If an accessor is
 called against a `mamaDateTime` structure which cannot be represented by that accessor, OpenMAMA will report an error condition.
 
-C++ will be extended to also add support for a `timeval` accessor as a parallel to the underlying C addition. Java's `setTime` and
+C++ will be extended to also add support for a `timespec` accessor as a parallel to the underlying C addition. Java's `setTime` and
 `set` methods will need enhancement to support use of `long` second parameters, while enhancements to the underlying JNI interface
 will be required to facilitate the propagation of extended range values. C# will similarly require some enhancements to support the
 extended format internally, though the exposed C# DateTime format should already support larger values. 
@@ -167,19 +166,24 @@ with the current implementation as well as extended data types.
 
 #### Interface Changes
 
-At the interface level, [adding timeval methods](#adding-timeval-methods) simply involves the addition of a single new function,
-`mamaDateTime_setFromStructTimeVal`. The function prototype will look like this:
+At the interface level, [adding timespec methods](#adding-timespec-methods) simply involves the addition of a two new functions,
+`mamaDateTime_setFromStructTimeSpec` and `mamaDateTime_getFromStructTimeSpec`. The function prototypes will look like this:
 
 ```
 MAMAExpDLL
 extern mama_status
-mamaDateTime_setStructTimeVal (const mamaDateTime dateTime,
-                               struct timeval*    value);
+mamaDateTime_setFromStructTimeSpec(const mamaDateTime dateTime,
+                                   struct timespec*   inputTimeSpec);
+
+MAMAExpDLL
+extern mama_status
+mamaDateTime_getStructTimeSpec(const mamaDateTime dateTime,
+                               struct timespec*   result);
 ```
 
-This, along with the existing getter equivalent (`mamaDateTime_getFromStructTimeVal`)
-will allow client applications to access extended time range values via the POSIX standard `timeval` structure. On each of OpenMAMA's supported
-platforms, `timeval` uses a signed long for storing second values, and a second signed long is used for microseconds. As such it is usually capable of
+
+This will allow client applications to access extended time range values via the POSIX standard `timespec` structure. On each of OpenMAMA's supported
+platforms, `timespec` uses a `time_t` for storing second values, and a second `signed long` is used for microseconds. As such it is usually capable of
 representing date ranges far in excess of those required by this RFC.
 
 However, due to the size of `time_t` on 32 bit systems, client applications
@@ -227,7 +231,7 @@ To make the new data structure easier to maintain, the following members are pro
 |Hints       |uint8               |Again, some bits going spare, but easy to work with.                                                  |
 
 So total data size is 112 bytes. Note that the format is reasonably close to `timespec`, and when all supported systems are 64-bit, we may modify this to simply
-use a `timeval` or `timespec` as a member.
+use a `timespec` as a member.
 
 The **mamaDateTime object will also be made opaque** to avoid the temptation to attempt direct access to the underlying data type:
 
@@ -253,11 +257,11 @@ regression testing should be required.
 
 #### Interface Changes
 
-A single new method is required here - `MamaDateTime::setFromStructTimeVal`. Everything else should remain unchanged in the eyes of the application. The method signature
+A single new method is required here - `MamaDateTime::setFromStructTimeSpec`. Everything else should remain unchanged in the eyes of the application. The method signature
 will be:
 
 ```
-setFromStructTimeVal (struct timeval& value);
+setFromStructTimeSpec (struct timespec& value);
 ```
 
 #### Internal Data Structure Changes
@@ -344,7 +348,7 @@ mama_u64_t data type. This means that the minor version in OpenMAMA will need to
 The payload bridge will be responsible for ensuring that:
 
 1. It treats mamaDateTime as an opaque data structure which it will only manipulate through accessor functions
-2. On 32-bit platforms, the use of `mamaDateTime_setFromStructTimeVal` is avoided in favour of non-epoch based methods such as `mamaDateTime_setDate` and
+2. On 32-bit platforms, the use of `mamaDateTime_setFromStructTimeSpec` is avoided in favour of non-epoch based methods such as `mamaDateTime_setDate` and
    `mamaDateTime_setTime`. This will ensure that no gibberish time fields get generated
 3. The wire format is backwards compatible for the time being, possibly using some hints that Vela provided to Solace on 19-Oct-2016
 4. Ensuring the chosen encoding and decoding methods work on 32-bit platforms
