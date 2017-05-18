@@ -33,6 +33,9 @@ entries:
     - title: Raising Issues
       url: /openmama_raising_issues.html
       output: web
+    - title: Performance Testing
+      url: /openmama_performance_testing.html
+      output: web
 
 
 #    - title: Crash Course in Concepts
