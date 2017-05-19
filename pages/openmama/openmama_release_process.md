@@ -19,11 +19,9 @@ Once a new release has been planned, a notification will be sent to the OpenMAMA
 
 Once a release has been announced, the release manager shall prepare the initial release candidate. Typically this will involve branching from the HEAD of the next branch, though branching from an earlier point may be considered if appropriate. The release branch shall be named for the intended release number (not for the release candidate number):
 
-```
-git checkout next
-git checkout -b OpenMAMA-<RELEASE-NUMBER>
-git push -u origin OpenMAMA-<RELEASE-NUMBER>
-```
+    git checkout next
+    git checkout -b OpenMAMA-<RELEASE-NUMBER>
+    git push -u origin OpenMAMA-<RELEASE-NUMBER>
 
 Once the release branch has been made, the following files should all be checked to indicate the new release version:
 
@@ -35,12 +33,16 @@ Once the release branch has been made, the following files should all be checked
 * `mamda/c_cpp/src/cpp/generateMamdaVersion.bat`
 * `mamda/java/build.xml`
 
+You can then commit and push these changes;
+
+    git commit -s -a -m "Updated version information to 6.2.1"
+    git push -u origin OpenMAMA-<RELEASE-NUMBER>
+
 The release branch should then be tagged as the first release candidate - RC1:
-```
-git checkout OpenMAMA-<RELEASE-NUMBER>
-git tag OpenMAMA-<RELEASE-NUMBER>-rc1
-git push origin OpenMAMA-<RELEASE-NUMBER>-rc1
-```
+
+    git checkout OpenMAMA-<RELEASE-NUMBER>
+    git tag OpenMAMA-<RELEASE-NUMBER>-rc1
+    git push origin OpenMAMA-<RELEASE-NUMBER>-rc1
 
 ## Release Artifacts
 
@@ -65,11 +67,11 @@ Once this is complete, all binary and source RPM's, along with a source tarball 
 The OpenMAMA dynamic build can now be generated on a Windows platform by calling the standard scons script. You should also remove cached entries in `omama.conf` for x86 dependencies between building the 32-bit and 64-bit versions.
 
 ```
-scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION>.win.x86 target_arch=x86
-scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION>.win.x86_64 target_arch=x86_64
+scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION><rcX if rc build>.win.x86 target_arch=x86 vsver=14.0
+scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION><rcX if rc build>.win.x86_64 target_arch=x86_64 vsver=14.0
 ```
 
-Then zip up the results.
+Then zip up the results in a zip file with the same name as the prefix directory.
 
 ## Test Period
 
