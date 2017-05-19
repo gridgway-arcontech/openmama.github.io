@@ -68,7 +68,7 @@ The OpenMAMA dynamic build can now be generated on a Windows platform by calling
 
 ```
 scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION><rcX if rc build>.win.x86 target_arch=x86 vsver=14.0
-scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION><rcX if rc build>.win.x86_64 target_arch=x86_64 vsver=14.0
+scons with_testtools=y product=mamdajni buildtype=dynamic prefix=#openmama-<VERSION><rcX if rc build>.win.x64 target_arch=x86_64 vsver=14.0
 ```
 
 Then zip up the results in a zip file with the same name as the prefix directory.
