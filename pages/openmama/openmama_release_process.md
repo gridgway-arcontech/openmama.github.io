@@ -30,6 +30,7 @@ Once the release branch has been made, the following files should all be checked
 * `mama/VERSION.scons`
 * `mama/c_cpp/src/c/generateMamaSourceFiles.bat`
 * `mama/jni/build.xml`
+* `mama/dotnet/src/cs/MamaVersion.cs`
 * `mamda/VERSION.scons`
 * `mamda/c_cpp/src/cpp/generateMamdaVersion.bat`
 * `mamda/java/build.xml`
