@@ -11,6 +11,7 @@ Issue tracking within OpenMAMA is hosted on [Github](https://github.com/OpenMAMA
 Please take the following into discussion when raising issues:
 
 * Check this hasn't been reported before. GitHub provides excellent search functionality on the main [issues](https://github.com/OpenMAMA/OpenMAMA/issues) page.
+* If you're not sure if it's an issue or not, ask us on the [mailing lists](https://lists.openmama.org/mailman/listinfo/openmama-dev) or come chat with us on [gitter](https://gitter.im/OpenMAMA/OpenMAMA).
 * Include as much information as possible
     * Recreation details.
     * [Platform(s)](openmama_supported_platforms.html) seen on.
