@@ -51,6 +51,10 @@ var searchData=
   ['mama_5fsync_5ftopics_5fper_5fmsg_5fid',['MAMA_SYNC_TOPICS_PER_MSG_ID',['../clientmanage_8h.html#abd156eb9d659acc68c07b14a69c68c29',1,'clientmanage.h']]],
   ['mama_5fsync_5ftypes_5fid',['MAMA_SYNC_TYPES_ID',['../clientmanage_8h.html#acf0124b6c0c7bc5af8bc8a573379a9f2',1,'clientmanage.h']]],
   ['mama_5ftimeout',['MAMA_TIMEOUT',['../subscmsgtype_8h.html#a03b4eda57677e61b63c7e321aba64fc4',1,'subscmsgtype.h']]],
+  ['mama_5fversion',['MAMA_VERSION',['../version_8h.html#a28512059264c138bac48cbaf8651e538',1,'version.h']]],
+  ['mama_5fversion_5fmajor',['MAMA_VERSION_MAJOR',['../version_8h.html#a75132bddaa106a288dd1650db4c7a065',1,'version.h']]],
+  ['mama_5fversion_5fminor',['MAMA_VERSION_MINOR',['../version_8h.html#a313c9917a0a9728b66e61f583ca0d129',1,'version.h']]],
+  ['mama_5fversion_5frelease',['MAMA_VERSION_RELEASE',['../version_8h.html#a106a8818f9d6a900715edbde50504cf7',1,'version.h']]],
   ['mama_5fworldviewrequest',['MAMA_WORLDVIEWREQUEST',['../subscmsgtype_8h.html#a49e972b5ca1afab6b60c4c28452a3534',1,'subscmsgtype.h']]],
   ['mama_5fworldviewroot',['MAMA_WORLDVIEWROOT',['../subscmsgtype_8h.html#a906d993741744f9dc3a07bba2722f8af',1,'subscmsgtype.h']]],
   ['mama_5fworldviewupdate',['MAMA_WORLDVIEWUPDATE',['../subscmsgtype_8h.html#a40b6a9294bd91bec0fc4e3f4312dc245',1,'subscmsgtype.h']]]

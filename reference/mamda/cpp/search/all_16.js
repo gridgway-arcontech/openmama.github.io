@@ -93,7 +93,7 @@ var searchData=
   ['_7emamdaquoteoutofsequence',['~MamdaQuoteOutOfSequence',['../classWombat_1_1MamdaQuoteOutOfSequence.html#a84b6ed957eeba1ee76ca3a60eb1533dd',1,'Wombat::MamdaQuoteOutOfSequence']]],
   ['_7emamdaquotepossiblyduplicate',['~MamdaQuotePossiblyDuplicate',['../classWombat_1_1MamdaQuotePossiblyDuplicate.html#afd1bd0fd3e206e3167ffba39ccd29dea',1,'Wombat::MamdaQuotePossiblyDuplicate']]],
   ['_7emamdaquoterecap',['~MamdaQuoteRecap',['../classWombat_1_1MamdaQuoteRecap.html#ab89d703efc60fa6edcf108860e922ba3',1,'Wombat::MamdaQuoteRecap']]],
-  ['_7emamdaquotetobooklistener',['~MamdaQuoteToBookListener',['../classMamdaQuoteToBookListener.html#a8b24434d592b082f17d07c002bd80625',1,'MamdaQuoteToBookListener']]],
+  ['_7emamdaquotetobooklistener',['~MamdaQuoteToBookListener',['../classWombat_1_1MamdaQuoteToBookListener.html#a9ed44524e3dd34f027a449e5b94d76a4',1,'Wombat::MamdaQuoteToBookListener']]],
   ['_7emamdaquoteupdate',['~MamdaQuoteUpdate',['../classWombat_1_1MamdaQuoteUpdate.html#a491d5bc79fe5827dffb20d07d9198b99',1,'Wombat::MamdaQuoteUpdate']]],
   ['_7emamdasecstatus',['~MamdaSecStatus',['../classWombat_1_1MamdaSecStatus.html#a3f313250bbdadba09d0d963349e40bb8',1,'Wombat::MamdaSecStatus']]],
   ['_7emamdasecstatushandler',['~MamdaSecStatusHandler',['../classWombat_1_1MamdaSecStatusHandler.html#a58d2847fe2bdcb98b81dc311e25a581b',1,'Wombat::MamdaSecStatusHandler']]],

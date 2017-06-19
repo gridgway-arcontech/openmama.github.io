@@ -92,7 +92,7 @@ var classWombat_1_1MamdaOrderBook =
     [ "askEntryEnd", "classWombat_1_1MamdaOrderBook.html#a759b321c4f62297ccd8c2ef6b7620473", null ],
     [ "setIsConsistent", "classWombat_1_1MamdaOrderBook.html#aeb98ce2769476a0051efc840bcf5fd27", null ],
     [ "getIsConsistent", "classWombat_1_1MamdaOrderBook.html#a3820ef61501b561281e90edf92b3b09d", null ],
-    [ "dump", "classWombat_1_1MamdaOrderBook.html#ad2baca01fcfd9392cfb59a4044ab91cf", null ],
+    [ "dump", "classWombat_1_1MamdaOrderBook.html#af1597974747f2175dcd47a444ec1bb22", null ],
     [ "generateDeltaMsgs", "classWombat_1_1MamdaOrderBook.html#aea8696a68ae878e16263cec2f4076587", null ],
     [ "getGenerateDeltaMsgs", "classWombat_1_1MamdaOrderBook.html#a5d6ece340bb0b0e8586122c094bdd9cc", null ],
     [ "populateDelta", "classWombat_1_1MamdaOrderBook.html#a1b4350eadb899786bdb744a329f4b2b4", null ],

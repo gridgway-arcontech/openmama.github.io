@@ -324,7 +324,7 @@ var files =
       [ "MamdaQuoteRecap", "classWombat_1_1MamdaQuoteRecap.html", "classWombat_1_1MamdaQuoteRecap" ]
     ] ],
     [ "MamdaQuoteToBookListener.h", "MamdaQuoteToBookListener_8h.html", [
-      [ "MamdaQuoteToBookListener", "classMamdaQuoteToBookListener.html", "classMamdaQuoteToBookListener" ]
+      [ "MamdaQuoteToBookListener", "classWombat_1_1MamdaQuoteToBookListener.html", "classWombat_1_1MamdaQuoteToBookListener" ]
     ] ],
     [ "MamdaQuoteUpdate.h", "MamdaQuoteUpdate_8h.html", [
       [ "MamdaQuoteUpdate", "classWombat_1_1MamdaQuoteUpdate.html", "classWombat_1_1MamdaQuoteUpdate" ]

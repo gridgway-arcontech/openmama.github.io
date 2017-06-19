@@ -107,6 +107,7 @@ var msg_8h =
     [ "mamaMsg_getField", "msg_8h.html#a465cdaf479ad6f5658a6af24d4cba8fb", null ],
     [ "mamaMsg_getDateTime", "msg_8h.html#adbd409858b8f100a63d910164edd1f39", null ],
     [ "mamaMsg_getDateTimeMSec", "msg_8h.html#a4850014add8a541c0b4520b5075d005c", null ],
+    [ "mamaMsg_getDateTimeSeconds", "msg_8h.html#a358fa81b7ca52efe6979808f4a8e66fe", null ],
     [ "mamaMsg_getPrice", "msg_8h.html#a4b62ae1259e07ce876529383e2dd4db5", null ],
     [ "mamaMsg_getMsg", "msg_8h.html#a640a8eed0f4898caae38d1d99c0ab0a0", null ],
     [ "mamaMsg_getVectorBool", "msg_8h.html#a04e79e8e682c42835a7c7e4372e77242", null ],

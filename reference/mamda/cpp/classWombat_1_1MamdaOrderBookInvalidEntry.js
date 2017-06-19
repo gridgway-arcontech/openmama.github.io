@@ -1,5 +1,5 @@
 var classWombat_1_1MamdaOrderBookInvalidEntry =
 [
-    [ "MamdaOrderBookInvalidEntry", "classWombat_1_1MamdaOrderBookInvalidEntry.html#a864ad9179bf446749e702f2f93811982", null ],
+    [ "MamdaOrderBookInvalidEntry", "classWombat_1_1MamdaOrderBookInvalidEntry.html#a742065276ab185f2d4b39a6385bed526", null ],
     [ "getInvalidEntry", "classWombat_1_1MamdaOrderBookInvalidEntry.html#afcae5c2846ef5fb1b618d4bb22057bf0", null ]
 ];

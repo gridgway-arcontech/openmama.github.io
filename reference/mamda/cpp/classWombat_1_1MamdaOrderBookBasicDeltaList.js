@@ -22,7 +22,7 @@ var classWombat_1_1MamdaOrderBookBasicDeltaList =
     [ "setConflateDeltas", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#a80b385b03cc90b5e5ef8e49813988fae", null ],
     [ "getSendImmediately", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#ae05386ca5d3ac2d1931022a316baa2b5", null ],
     [ "setProcessEntries", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#affe27ce620459c70050d9aee60160dc7", null ],
-    [ "dump", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#ac4c2c10fb28aff1af84b8582b8da3e48", null ],
+    [ "dump", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#af984e8e96bf7b3cb0f89e00ecfa41eb3", null ],
     [ "begin", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#a3f3f6c9249cde8c9505e07ad9fdfd915", null ],
     [ "begin", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#ab07d1d7226f23f9fdb366c7377a0ff9a", null ],
     [ "end", "classWombat_1_1MamdaOrderBookBasicDeltaList.html#aea13d67de0766413616ddb6274e2bc18", null ],

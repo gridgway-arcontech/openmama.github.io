@@ -6,6 +6,14 @@ var hierarchy =
     [ "Wombat::MamdaOrderBook::bidIterator", "classWombat_1_1MamdaOrderBook_1_1bidIterator.html", null ],
     [ "Wombat::char_str_less_than", "structWombat_1_1char__str__less__than.html", null ],
     [ "Wombat::MamdaOptionChain::const_iterator", "classWombat_1_1MamdaOptionChain_1_1const__iterator.html", null ],
+    [ "invalid_argument", null, [
+      [ "Wombat::MamdaDataException", "classWombat_1_1MamdaDataException.html", null ],
+      [ "Wombat::MamdaOrderBookException", "classWombat_1_1MamdaOrderBookException.html", [
+        [ "Wombat::MamdaOrderBookDuplicateEntry", "classWombat_1_1MamdaOrderBookDuplicateEntry.html", null ],
+        [ "Wombat::MamdaOrderBookInvalidEntry", "classWombat_1_1MamdaOrderBookInvalidEntry.html", null ],
+        [ "Wombat::MamdaOrderBookMissingEntry", "classWombat_1_1MamdaOrderBookMissingEntry.html", null ]
+      ] ]
+    ] ],
     [ "Wombat::MamdaOrderBookBasicDeltaList::iterator", "classWombat_1_1MamdaOrderBookBasicDeltaList_1_1iterator.html", null ],
     [ "Wombat::MamdaOrderBookPriceLevel::iterator", "classWombat_1_1MamdaOrderBookPriceLevel_1_1iterator.html", null ],
     [ "Wombat::MamdaOptionChain::iterator", "classWombat_1_1MamdaOptionChain_1_1iterator.html", null ],
@@ -137,8 +145,7 @@ var hierarchy =
       [ "Wombat::MamdaMultiSecurityManager", "classWombat_1_1MamdaMultiSecurityManager.html", null ],
       [ "Wombat::MamdaOptionChainListener", "classWombat_1_1MamdaOptionChainListener.html", null ],
       [ "Wombat::MamdaOrderBookListener", "classWombat_1_1MamdaOrderBookListener.html", [
-        [ "MamdaOrderBookDepthFilter", "classMamdaOrderBookDepthFilter.html", null ],
-        [ "MamdaQuoteToBookListener", "classMamdaQuoteToBookListener.html", null ]
+        [ "Wombat::MamdaQuoteToBookListener", "classWombat_1_1MamdaQuoteToBookListener.html", null ]
       ] ],
       [ "Wombat::MamdaOrderImbalanceListener", "classWombat_1_1MamdaOrderImbalanceListener.html", null ],
       [ "Wombat::MamdaPubStatusListener", "classWombat_1_1MamdaPubStatusListener.html", null ],
@@ -175,7 +182,11 @@ var hierarchy =
     [ "Wombat::MamdaOrderBookEntryFilter", "classWombat_1_1MamdaOrderBookEntryFilter.html", null ],
     [ "Wombat::MamdaOrderBookEntryManager", "classWombat_1_1MamdaOrderBookEntryManager.html", null ],
     [ "Wombat::MamdaOrderBookFields", "classWombat_1_1MamdaOrderBookFields.html", null ],
-    [ "Wombat::MamdaOrderBookHandler", "classWombat_1_1MamdaOrderBookHandler.html", [
+    [ "MamdaOrderBookHandler", "classMamdaOrderBookHandler.html", [
+      [ "MamdaOrderBookDepthFilter", "classMamdaOrderBookDepthFilter.html", null ]
+    ] ],
+    [ "Wombat::MamdaOrderBookHandler", "classWombat_1_1MamdaOrderBookHandler.html", null ],
+    [ "MamdaOrderBookListener", "classMamdaOrderBookListener.html", [
       [ "MamdaOrderBookDepthFilter", "classMamdaOrderBookDepthFilter.html", null ]
     ] ],
     [ "Wombat::MamdaOrderBookPriceLevel", "classWombat_1_1MamdaOrderBookPriceLevel.html", null ],
@@ -217,13 +228,5 @@ var hierarchy =
       [ "Wombat::MamdaOptionContractSet", "classWombat_1_1MamdaOptionContractSet.html", null ],
       [ "Wombat::MamdaOptionExpirationDateSet", "classWombat_1_1MamdaOptionExpirationDateSet.html", null ],
       [ "Wombat::MamdaOptionExpirationStrikes", "classWombat_1_1MamdaOptionExpirationStrikes.html", null ]
-    ] ],
-    [ "invalid_argument", null, [
-      [ "Wombat::MamdaDataException", "classWombat_1_1MamdaDataException.html", null ],
-      [ "Wombat::MamdaOrderBookException", "classWombat_1_1MamdaOrderBookException.html", [
-        [ "Wombat::MamdaOrderBookDuplicateEntry", "classWombat_1_1MamdaOrderBookDuplicateEntry.html", null ],
-        [ "Wombat::MamdaOrderBookInvalidEntry", "classWombat_1_1MamdaOrderBookInvalidEntry.html", null ],
-        [ "Wombat::MamdaOrderBookMissingEntry", "classWombat_1_1MamdaOrderBookMissingEntry.html", null ]
-      ] ]
     ] ]
 ];

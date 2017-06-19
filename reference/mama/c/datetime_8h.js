@@ -12,6 +12,7 @@ var datetime_8h =
       [ "MAMA_DATE_TIME_PREC_CENTISECONDS", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a153ef2ea0640a684d5e6b1ac1b6226e5", null ],
       [ "MAMA_DATE_TIME_PREC_MILLISECONDS", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a85ec23e0fe6da0ee09bdaf08537eeae1", null ],
       [ "MAMA_DATE_TIME_PREC_MICROSECONDS", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03ab627f7a7fba4f372c4e48a2fbcb14fb8", null ],
+      [ "MAMA_DATE_TIME_PREC_NANOSECONDS", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a9d35ba63232f20024c06f192bf2f57e4", null ],
       [ "MAMA_DATE_TIME_PREC_DAYS", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a4b909845d11efbf6f6f547b2fa991262", null ],
       [ "MAMA_DATE_TIME_PREC_MINUTES", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a0ed1f09a133e7c7b97e0f38ab640d15b", null ],
       [ "MAMA_DATE_TIME_PREC_UNKNOWN", "datetime_8h.html#a206b5d879325aa8f962fe9509a6dea03a3c0caa2ee90ffa03c6a188ca230b429d", null ]
@@ -34,11 +35,16 @@ var datetime_8h =
     [ "mamaDateTime_empty", "datetime_8h.html#a081be3e10ff28d7d76bf3bd646e62f94", null ],
     [ "mamaDateTime_equal", "datetime_8h.html#ac2a5d2cd9120e7dd9112a7ff78827a33", null ],
     [ "mamaDateTime_compare", "datetime_8h.html#af805992088c68411838ff50f9c437b36", null ],
+    [ "mamaDateTime_getEpochTimeExt", "datetime_8h.html#aec90dfac1c3fe8b02f883dce9db04afe", null ],
+    [ "mamaDateTime_setEpochTimeExt", "datetime_8h.html#ae5ea9d9390a69e3fabc56fa62c925ca1", null ],
     [ "mamaDateTime_setEpochTime", "datetime_8h.html#a75a9b236760842aa4d49db4ca285c52f", null ],
     [ "mamaDateTime_setEpochTimeF64", "datetime_8h.html#afb25bed057a726b4bc37b82ad4a13874", null ],
     [ "mamaDateTime_setEpochTimeMilliseconds", "datetime_8h.html#a6954c0a48464445efcd791b0221b468e", null ],
     [ "mamaDateTime_setEpochTimeMicroseconds", "datetime_8h.html#a9cfaebf60942622b3a1ff2d10e6f93a8", null ],
     [ "mamaDateTime_setWithHints", "datetime_8h.html#a9dbd32acca5b3d124f022785b9f6aa05", null ],
+    [ "mamaDateTime_getHints", "datetime_8h.html#a43e58d345178641b883bfa26891b59cb", null ],
+    [ "mamaDateTime_setHints", "datetime_8h.html#abde7c761f635bfbd1bd9799cc7ba961e", null ],
+    [ "mamaDateTime_getPrecision", "datetime_8h.html#adf423c65082e7d58138ed86ab9740d45", null ],
     [ "mamaDateTime_setPrecision", "datetime_8h.html#acd97e16d66e24bee2c835d6720171481", null ],
     [ "mamaDateTime_setToNow", "datetime_8h.html#aa66e962abc8aea29e4e25ee1ac55f6a4", null ],
     [ "mamaDateTime_setToMidnightToday", "datetime_8h.html#aa347515a2569fd123af33a71c064023c", null ],
@@ -69,6 +75,7 @@ var datetime_8h =
     [ "mamaDateTime_getWithHints", "datetime_8h.html#a1028fa2ee4577ae6a493f7bc64047812", null ],
     [ "mamaDateTime_getStructTimeVal", "datetime_8h.html#adc14180efcdf9aa1a175826b57890531", null ],
     [ "mamaDateTime_getStructTimeValWithTz", "datetime_8h.html#ae9ac28fd5de37e750ee47471b2af73aa", null ],
+    [ "mamaDateTime_setFromStructTimeVal", "datetime_8h.html#ab428ebc454e4a6f45e24345634bd7a62", null ],
     [ "mamaDateTime_getStructTm", "datetime_8h.html#ad2063821a9747a3b50fb91951fab5e31", null ],
     [ "mamaDateTime_getStructTmWithTz", "datetime_8h.html#a9eb112e2489c46ae46fd070d63de1f6e", null ],
     [ "mamaDateTime_getAsString", "datetime_8h.html#a9a9f040b425f3de490a2d0ba8b7a83f6", null ],
@@ -86,5 +93,7 @@ var datetime_8h =
     [ "mamaDateTime_getDayOfWeek", "datetime_8h.html#a823cbc77255df52e3aeac5ae5591df8a", null ],
     [ "mamaDateTime_diffSeconds", "datetime_8h.html#a395344475cc23f7d1507e87840d32af2", null ],
     [ "mamaDateTime_diffSecondsSameDay", "datetime_8h.html#aabefa86e717153c530fd988517a670f7", null ],
-    [ "mamaDateTime_diffMicroseconds", "datetime_8h.html#a4a319df24e6017a9dbea06e6a5281c34", null ]
+    [ "mamaDateTime_diffMicroseconds", "datetime_8h.html#a4a319df24e6017a9dbea06e6a5281c34", null ],
+    [ "mamaDateTime_setFromStructTimeSpec", "datetime_8h.html#adb38ef054211db02fb9fdb0338dd741d", null ],
+    [ "mamaDateTime_getStructTimeSpec", "datetime_8h.html#ac6504a375f041ffd1ebb92d671614cbc", null ]
 ];

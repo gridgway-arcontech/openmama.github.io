@@ -163,7 +163,7 @@ var NAVTREEINDEX0 =
 "MamdaOptionChainView_8h.html":[2,0,54],
 "MamdaOptionChainView_8h_source.html":[2,0,54],
 "MamdaOptionChain_8h.html":[2,0,51],
-"MamdaOptionChain_8h.html#a302d481a195bac5c9315c82cdbc79447":[2,0,51,3],
+"MamdaOptionChain_8h.html#a585d0a2eb92595b9393e7e2ac1eee68d":[2,0,51,3],
 "MamdaOptionChain_8h_source.html":[2,0,51],
 "MamdaOptionContractSet_8h.html":[2,0,57],
 "MamdaOptionContractSet_8h_source.html":[2,0,57],

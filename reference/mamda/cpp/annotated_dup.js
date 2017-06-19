@@ -2,5 +2,6 @@ var annotated_dup =
 [
     [ "Wombat", "namespaceWombat.html", "namespaceWombat" ],
     [ "MamdaOrderBookDepthFilter", "classMamdaOrderBookDepthFilter.html", "classMamdaOrderBookDepthFilter" ],
-    [ "MamdaQuoteToBookListener", "classMamdaQuoteToBookListener.html", "classMamdaQuoteToBookListener" ]
+    [ "MamdaOrderBookHandler", "classMamdaOrderBookHandler.html", null ],
+    [ "MamdaOrderBookListener", "classMamdaOrderBookListener.html", null ]
 ];

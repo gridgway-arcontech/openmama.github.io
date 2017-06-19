@@ -56,5 +56,6 @@ var files =
     [ "timer.h", "timer_8h.html", "timer_8h" ],
     [ "timezone.h", "timezone_8h.html", "timezone_8h" ],
     [ "transport.h", "transport_8h.html", "transport_8h" ],
-    [ "types.h", "types_8h.html", "types_8h" ]
+    [ "types.h", "types_8h.html", "types_8h" ],
+    [ "version.h", "version_8h.html", "version_8h" ]
 ];

@@ -23,7 +23,7 @@ var types_8h =
     [ "mamaPayloadBridge", "types_8h.html#aa8780a24981ed7f83137aafc3de1dada", null ],
     [ "mamaPlugin", "types_8h.html#a8a9c67eac0e70fffd244212e4240a37f", null ],
     [ "mamaPluginInfo", "types_8h.html#a7dc5af12ed01673c6cffb193d6f18946", null ],
-    [ "mamaDateTime", "types_8h.html#aabfe2643b7368f28adb648fbdf46b110", null ],
+    [ "mamaDateTime", "types_8h.html#a4a6e3ac3b29ffa871e73ae3123d5a610", null ],
     [ "mamaTimeZone", "types_8h.html#af32716437329f2fde79985e160f2156e", null ],
     [ "mamaPrice", "types_8h.html#a894e5abfca837f6a764f286f36255e50", null ],
     [ "mamaMsg", "types_8h.html#a18a7a376f0a46a8e0d0d1884a0f29845", null ],

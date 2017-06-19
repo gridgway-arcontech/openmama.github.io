@@ -297,6 +297,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4532590abc1805c73187244d072f62a2"><td class="memItemLeft" align="right" valign="top">MAMAExpDLL <a class="el" href="status_8h.html#a5d6ed00e44491618b9c9f39771f7601e">mama_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mama_8h.html#a4532590abc1805c73187244d072f62a2">mama_removeStatsCollector</a> (<a class="el" href="types_8h.html#a9962a3daa032c7fa43640317337dfc2d">mamaStatsCollector</a> statsCollector)</td></tr>
 <tr class="memdesc:a4532590abc1805c73187244d072f62a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a user stats collector.  <a href="#a4532590abc1805c73187244d072f62a2">More...</a><br /></td></tr>
 <tr class="separator:a4532590abc1805c73187244d072f62a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf8b4179df5560608af9917caf73b39"><td class="memItemLeft" align="right" valign="top">MAMAExpDLL <a class="el" href="status_8h.html#a5d6ed00e44491618b9c9f39771f7601e">mama_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mama_8h.html#a7cf8b4179df5560608af9917caf73b39">mama_getMiddlewareBridge</a> (<a class="el" href="types_8h.html#aa3b0d534773b2c032ff4f02619859eb9">mamaBridge</a> *bridge, const char *middlewareName)</td></tr>
+<tr class="memdesc:a7cf8b4179df5560608af9917caf73b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Middleware Bridge by middleware name.  <a href="#a7cf8b4179df5560608af9917caf73b39">More...</a><br /></td></tr>
+<tr class="separator:a7cf8b4179df5560608af9917caf73b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665347dee9bea0a5f8cd2f7d8df1ef6e"><td class="memItemLeft" align="right" valign="top">MAMAExpDLL <a class="el" href="status_8h.html#a5d6ed00e44491618b9c9f39771f7601e">mama_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mama_8h.html#a665347dee9bea0a5f8cd2f7d8df1ef6e">mama_getPayloadBridge</a> (<a class="el" href="types_8h.html#aa8780a24981ed7f83137aafc3de1dada">mamaPayloadBridge</a> *payloadBridge, const char *payloadName)</td></tr>
+<tr class="memdesc:a665347dee9bea0a5f8cd2f7d8df1ef6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Payload bridge by payload name.  <a href="#a665347dee9bea0a5f8cd2f7d8df1ef6e">More...</a><br /></td></tr>
+<tr class="separator:a665347dee9bea0a5f8cd2f7d8df1ef6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ab16b2a90a8538f691a248e324a330faa"></a>
@@ -1693,6 +1699,82 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove a user stats collector. </p>
+
+</div>
+</div>
+<a id="a7cf8b4179df5560608af9917caf73b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf8b4179df5560608af9917caf73b39">&sect;&nbsp;</a></span>mama_getMiddlewareBridge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MAMAExpDLL <a class="el" href="status_8h.html#a5d6ed00e44491618b9c9f39771f7601e">mama_status</a> mama_getMiddlewareBridge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa3b0d534773b2c032ff4f02619859eb9">mamaBridge</a> *&#160;</td>
+          <td class="paramname"><em>bridge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>middlewareName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get Middleware Bridge by middleware name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bridge</td><td>Pointer to a mamaBridge object. </td></tr>
+    <tr><td class="paramname">middlewareName</td><td>String denoting the middleware to return </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mama_status MAMA_STATUS_OK if successful. MAMA_STATUS_NULL_ARG if one of the arguments is NULL. MAMA_STATUS_NOT_FOUND if no bridge available. </dd></dl>
+
+</div>
+</div>
+<a id="a665347dee9bea0a5f8cd2f7d8df1ef6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a665347dee9bea0a5f8cd2f7d8df1ef6e">&sect;&nbsp;</a></span>mama_getPayloadBridge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MAMAExpDLL <a class="el" href="status_8h.html#a5d6ed00e44491618b9c9f39771f7601e">mama_status</a> mama_getPayloadBridge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa8780a24981ed7f83137aafc3de1dada">mamaPayloadBridge</a> *&#160;</td>
+          <td class="paramname"><em>payloadBridge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>payloadName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get Payload bridge by payload name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payloadBridge</td><td>Pointer to the mamaPayloadBridge object. </td></tr>
+    <tr><td class="paramname">payloadName</td><td>String denoting the payload to return </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mama_status MAMA_STATUS_OK if successful MAMA_STATUS_NULL_ARG if one of the arguments is NULL. MAMA_STATUS_NOT_FOUND if no payload available. </dd></dl>
 
 </div>
 </div>

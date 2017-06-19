@@ -19,5 +19,6 @@ var searchData=
   ['onrequest',['onRequest',['../structmamaDQPublisherManagerCallbacks__.html#aca7d03d1c7fdee52eb97ff814e8b3c51',1,'mamaDQPublisherManagerCallbacks_']]],
   ['onsessiondisconnect',['onSessionDisconnect',['../structmamaEntitlementCallbacks__.html#a34f7baa1fafd981feb596ff181ebfc87',1,'mamaEntitlementCallbacks_']]],
   ['onsessiondisconnectcb',['onSessionDisconnectCB',['../mama_8h.html#a04eca5eb891d49710ba72b15eb188243',1,'mama.h']]],
+  ['onsuccess',['onSuccess',['../structmamaPublisherCallbacks.html#a5c4bede50ce202aba918a5e94ca10bb6',1,'mamaPublisherCallbacks']]],
   ['ontimeout',['onTimeout',['../structmamaDictionaryCallbackSet.html#ab10d87dc6a389627b817725912a8135c',1,'mamaDictionaryCallbackSet']]]
 ];

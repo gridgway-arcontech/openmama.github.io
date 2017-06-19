@@ -35,6 +35,7 @@ var searchData=
   ['onsubscriptionmessagedelegate',['OnSubscriptionMessageDelegate',['../classWombat_1_1MamaBasicSubscription.html#a3845c2e307e692b5d89b701e6995c06b',1,'Wombat::MamaBasicSubscription']]],
   ['onsubscriptionqualitydelegate',['OnSubscriptionQualityDelegate',['../classWombat_1_1MamaBasicSubscription.html#a030250c1dcbf83204d56f2941ebece19',1,'Wombat::MamaBasicSubscription']]],
   ['onsubscriptionrecaprequestdelegate',['OnSubscriptionRecapRequestDelegate',['../classWombat_1_1MamaBasicSubscription.html#a9ef91e2d04ca9983ded508bfb8896177',1,'Wombat::MamaBasicSubscription']]],
+  ['onsuccess',['onSuccess',['../interfaceWombat_1_1MamaPublisherCallback.html#aaa68560f200cfa97e3a0e23832f35aad',1,'Wombat::MamaPublisherCallback']]],
   ['ontimeout',['onTimeout',['../interfaceWombat_1_1MamaDictionaryCallback.html#a05f1ea52f5573da218d6022802d99f5d',1,'Wombat::MamaDictionaryCallback']]],
   ['ontimer',['onTimer',['../interfaceWombat_1_1MamaTimerCallback.html#a68754448b1a98b35dc1533e6c4008b88',1,'Wombat::MamaTimerCallback']]],
   ['ontimertickdelegate',['OnTimerTickDelegate',['../classWombat_1_1MamaTimer.html#a7538f8ba13619b88c2e42451c3b6a39a',1,'Wombat::MamaTimer']]],

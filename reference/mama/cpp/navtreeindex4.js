@@ -1,5 +1,14 @@
 var NAVTREEINDEX4 =
 {
+"classWombat_1_1MamaPrice.html#a4309d7bf55f6844df32a6b7fa06fa7f5":[2,0,0,44,15],
+"classWombat_1_1MamaPrice.html#a551b8bd6e625c9102beece6c8ece354a":[2,0,0,44,11],
+"classWombat_1_1MamaPrice.html#a5699787582969a582329506fea41f206":[2,0,0,44,10],
+"classWombat_1_1MamaPrice.html#a5f46f98011a5e1ec28c28d175e83a46a":[2,0,0,44,21],
+"classWombat_1_1MamaPrice.html#a6d48f7cef9b327b4ed437591169d0632":[2,0,0,44,35],
+"classWombat_1_1MamaPrice.html#a8192e31ba6e1642348a1ac65367f1688":[2,0,0,44,6],
+"classWombat_1_1MamaPrice.html#a8352d77ec2751d6002395c5c3a153323":[2,0,0,44,34],
+"classWombat_1_1MamaPrice.html#a8361cd09e70657fe48a92448bb6ebf58":[2,0,0,44,16],
+"classWombat_1_1MamaPrice.html#a844f32dbc75b2f31ef1c87feaedf9fb8":[2,0,0,44,28],
 "classWombat_1_1MamaPrice.html#a85764a87c09a9aeca5bfacb41f834806":[2,0,0,44,1],
 "classWombat_1_1MamaPrice.html#aa3dfc93f2e43ab835e4de3c10ed7fb00":[2,0,0,44,18],
 "classWombat_1_1MamaPrice.html#aafd079f9166c4716c4d693339c9215b5":[2,0,0,44,13],
@@ -52,6 +61,7 @@ var NAVTREEINDEX4 =
 "classWombat_1_1MamaPublisherCallback.html#a21ef5edee98d09a04486457c3817e67a":[2,0,0,46,3],
 "classWombat_1_1MamaPublisherCallback.html#a49c6bf7e6bdcfe5ef5515501530575fa":[2,0,0,46,1],
 "classWombat_1_1MamaPublisherCallback.html#a7753e5b1a02a0fe72a46079b55094ac1":[2,0,0,46,4],
+"classWombat_1_1MamaPublisherCallback.html#a7d4c67e4f9d542e108daf4957b2b0449":[2,0,0,46,5],
 "classWombat_1_1MamaPublisherCallback.html#a9ba5d306b4d31c700da0d71a8b528ac8":[2,0,0,46,0],
 "classWombat_1_1MamaQueue.html":[2,0,0,48],
 "classWombat_1_1MamaQueue.html#a186d02095e3e6b65abe0b34603d3ab30":[2,0,0,48,16],
@@ -239,15 +249,5 @@ var NAVTREEINDEX4 =
 "classWombat_1_1MamaSourceManager_1_1iterator.html#a7d4e97eda5f53b99cd8d03c875cc4fea":[2,0,0,60,0,10],
 "classWombat_1_1MamaSourceManager_1_1iterator.html#a94b48cd416bab2ed0ada3107ec845a5b":[2,0,0,60,0,6],
 "classWombat_1_1MamaSourceManager_1_1iterator.html#a9d3de3713e654aaec98774dc3618b4fd":[2,0,0,60,0,7],
-"classWombat_1_1MamaSourceManager_1_1iterator.html#ad5c11850f91d3f4cdcf2f5c1a2462448":[2,0,0,60,0,4],
-"classWombat_1_1MamaSourceManager_1_1iterator.html#afe9d766f0409bb92af4398589df5aef9":[2,0,0,60,0,3],
-"classWombat_1_1MamaSourceStateChangeCallback.html":[2,0,0,61],
-"classWombat_1_1MamaSourceStateChangeCallback.html#a47631526146f256086453731e24306c0":[2,0,0,61,0],
-"classWombat_1_1MamaSourceStateChangeCallback.html#aebc13e83b3de1072ef12a6083bc5061b":[2,0,0,61,1],
-"classWombat_1_1MamaStartCallback.html":[2,0,0,62],
-"classWombat_1_1MamaStartCallback.html#a3cacef15c9650324c3a21a602606cf53":[2,0,0,62,0],
-"classWombat_1_1MamaStartCallback.html#ab8fceb926edc9c4306b559ebe290925f":[2,0,0,62,1],
-"classWombat_1_1MamaStat.html":[2,0,0,63],
-"classWombat_1_1MamaStat.html#a0ae9a2c4980dc05186e425e27b330fc5":[2,0,0,63,6],
-"classWombat_1_1MamaStat.html#a0cc73961a8457a936d69462ed81994db":[2,0,0,63,10]
+"classWombat_1_1MamaSourceManager_1_1iterator.html#ad5c11850f91d3f4cdcf2f5c1a2462448":[2,0,0,60,0,4]
 };

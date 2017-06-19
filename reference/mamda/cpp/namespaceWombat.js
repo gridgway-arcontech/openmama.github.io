@@ -114,6 +114,7 @@ var namespaceWombat =
     [ "MamdaQuoteOutOfSequence", "classWombat_1_1MamdaQuoteOutOfSequence.html", "classWombat_1_1MamdaQuoteOutOfSequence" ],
     [ "MamdaQuotePossiblyDuplicate", "classWombat_1_1MamdaQuotePossiblyDuplicate.html", "classWombat_1_1MamdaQuotePossiblyDuplicate" ],
     [ "MamdaQuoteRecap", "classWombat_1_1MamdaQuoteRecap.html", "classWombat_1_1MamdaQuoteRecap" ],
+    [ "MamdaQuoteToBookListener", "classWombat_1_1MamdaQuoteToBookListener.html", "classWombat_1_1MamdaQuoteToBookListener" ],
     [ "MamdaQuoteUpdate", "classWombat_1_1MamdaQuoteUpdate.html", "classWombat_1_1MamdaQuoteUpdate" ],
     [ "MamdaSecStatus", "classWombat_1_1MamdaSecStatus.html", "classWombat_1_1MamdaSecStatus" ],
     [ "MamdaSecStatusFields", "classWombat_1_1MamdaSecStatusFields.html", null ],

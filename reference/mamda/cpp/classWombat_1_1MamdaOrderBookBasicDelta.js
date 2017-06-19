@@ -16,7 +16,7 @@ var classWombat_1_1MamdaOrderBookBasicDelta =
     [ "getEntryDeltaAction", "classWombat_1_1MamdaOrderBookBasicDelta.html#aba1154fd8581af77a573e7a1abcfdca0", null ],
     [ "setEntryDeltaAction", "classWombat_1_1MamdaOrderBookBasicDelta.html#aa891db48e540e1c71fc2fb11552e8e95", null ],
     [ "getOrderBook", "classWombat_1_1MamdaOrderBookBasicDelta.html#a2e15edd4905245939f26c687d5ae64f2", null ],
-    [ "dump", "classWombat_1_1MamdaOrderBookBasicDelta.html#a61798136f2455ee54be68cde4e9c4eb5", null ],
+    [ "dump", "classWombat_1_1MamdaOrderBookBasicDelta.html#abff3472aa0222d7e678f923820809e97", null ],
     [ "mPriceLevel", "classWombat_1_1MamdaOrderBookBasicDelta.html#aabd82c385997d03c79df774d690699f4", null ],
     [ "mEntry", "classWombat_1_1MamdaOrderBookBasicDelta.html#a6c98a2021f67c632baa255236b20f288", null ],
     [ "mPlDeltaSize", "classWombat_1_1MamdaOrderBookBasicDelta.html#aa82abf62a468b5d0a66ada05af24a88f", null ],

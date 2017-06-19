@@ -61,5 +61,7 @@ var mama_8h =
     [ "mama_getLastErrorText", "mama_8h.html#ab29616b76a9e243704230d4a096db975", null ],
     [ "mama_setBridgeInfoCallback", "mama_8h.html#a0dc5efc0d09e27ec8ba354f304f866ae", null ],
     [ "mama_addStatsCollector", "mama_8h.html#aa4a17a87840e8dc5c7052f491912f227", null ],
-    [ "mama_removeStatsCollector", "mama_8h.html#a4532590abc1805c73187244d072f62a2", null ]
+    [ "mama_removeStatsCollector", "mama_8h.html#a4532590abc1805c73187244d072f62a2", null ],
+    [ "mama_getMiddlewareBridge", "mama_8h.html#a7cf8b4179df5560608af9917caf73b39", null ],
+    [ "mama_getPayloadBridge", "mama_8h.html#a665347dee9bea0a5f8cd2f7d8df1ef6e", null ]
 ];

@@ -128,8 +128,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e0773b5b60e6786921cfa8c7e6f6403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a4e876163aae99f96fa98162424895b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a1a4e876163aae99f96fa98162424895b">setWithHints</a> (mama_u32_t secondsSinceEpoch, mama_u32_t microseconds, mamaDateTimePrecision precision=MAMA_DATE_TIME_PREC_UNKNOWN, mamaDateTimeHints hints=0)</td></tr>
 <tr class="separator:a1a4e876163aae99f96fa98162424895b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd24802134f69963a4f2dcc0f9a637d"><td class="memItemLeft" align="right" valign="top">mamaDateTimePrecision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a8dd24802134f69963a4f2dcc0f9a637d">getPrecision</a> ()</td></tr>
+<tr class="separator:a8dd24802134f69963a4f2dcc0f9a637d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5da515d920a7999066e8af43eff427ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a5da515d920a7999066e8af43eff427ee">setPrecision</a> (mamaDateTimePrecision precision)</td></tr>
 <tr class="separator:a5da515d920a7999066e8af43eff427ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a514f355f185b96afef15387031137d23"><td class="memItemLeft" align="right" valign="top">mamaDateTimeHints&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a514f355f185b96afef15387031137d23">getHints</a> ()</td></tr>
+<tr class="separator:a514f355f185b96afef15387031137d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6942ac5411e091e7e9297bb83cb2eab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#aa6942ac5411e091e7e9297bb83cb2eab">setHints</a> (mamaDateTimeHints hints)</td></tr>
+<tr class="separator:aa6942ac5411e091e7e9297bb83cb2eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a403d86b47924626e1674ebdd9e8d9bb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a403d86b47924626e1674ebdd9e8d9bb2">setFromString</a> (const char *str, const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> *tz=NULL)</td></tr>
 <tr class="separator:a403d86b47924626e1674ebdd9e8d9bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b0370e32d78691526cb620bfc6971d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#ab8b0370e32d78691526cb620bfc6971d">setFromString</a> (const char *str, <a class="el" href="classmama__size__t.html">mama_size_t</a> strLen, const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> *tz=NULL)</td></tr>
@@ -138,6 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a70ff9ced71b5f724cb83312f83414fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c49cf313c23d347e458b789c24192b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#ad1c49cf313c23d347e458b789c24192b">setToMidnightToday</a> (const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> *tz=NULL)</td></tr>
 <tr class="separator:ad1c49cf313c23d347e458b789c24192b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f06028f65f06f3a0aa4625cd26b9e2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a2f06028f65f06f3a0aa4625cd26b9e2e">setFromStructTimeSpec</a> (struct timespec &amp;inputTimeSpec)</td></tr>
+<tr class="memdesc:a2f06028f65f06f3a0aa4625cd26b9e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the underlying C mamaDateTime from a TimeSpec Struct.  <a href="#a2f06028f65f06f3a0aa4625cd26b9e2e">More...</a><br /></td></tr>
+<tr class="separator:a2f06028f65f06f3a0aa4625cd26b9e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fa3f3374e2f1f7f2cfab3ffd01c133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#ad9fa3f3374e2f1f7f2cfab3ffd01c133">set</a> (struct timeval inputTimeVal)</td></tr>
+<tr class="memdesc:ad9fa3f3374e2f1f7f2cfab3ffd01c133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the underlying C mamaDateTime from a TimeVal Struct.  <a href="#ad9fa3f3374e2f1f7f2cfab3ffd01c133">More...</a><br /></td></tr>
+<tr class="separator:ad9fa3f3374e2f1f7f2cfab3ffd01c133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cefdc8f7306655701120a2c1bbda4ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a0cefdc8f7306655701120a2c1bbda4ff">set</a> (mama_u32_t year, mama_u32_t month, mama_u32_t day, mama_u32_t hour, mama_u32_t minute, mama_u32_t second, mama_u32_t microsecond, mamaDateTimePrecision precision=MAMA_DATE_TIME_PREC_UNKNOWN, const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> *tz=NULL)</td></tr>
 <tr class="memdesc:a0cefdc8f7306655701120a2c1bbda4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the entire date and time for the <a class="el" href="classWombat_1_1MamaDateTime.html" title="A date/time representation with additional hints for precision, advanced output formatting and suppor...">MamaDateTime</a>.  <a href="#a0cefdc8f7306655701120a2c1bbda4ff">More...</a><br /></td></tr>
 <tr class="separator:a0cefdc8f7306655701120a2c1bbda4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,6 +194,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86d069000db61ccd1186d4c1e43489c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02ef6c7566d3881beadecff184fba505"><td class="memItemLeft" align="right" valign="top">mama_f64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a02ef6c7566d3881beadecff184fba505">getEpochTimeSeconds</a> (const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> &amp;tz) const</td></tr>
 <tr class="separator:a02ef6c7566d3881beadecff184fba505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af415f1a94c0039a9e1094d76f190c7fa"><td class="memItemLeft" align="right" valign="top">mama_i64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#af415f1a94c0039a9e1094d76f190c7fa">getEpochTimeExtSeconds</a> () const</td></tr>
+<tr class="memdesc:af415f1a94c0039a9e1094d76f190c7fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the extended datetime value in whole seconds since the Epoch (UTC).  <a href="#af415f1a94c0039a9e1094d76f190c7fa">More...</a><br /></td></tr>
+<tr class="separator:af415f1a94c0039a9e1094d76f190c7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cb6a0d96bdb6bb29fe07f349883e2a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a89cb6a0d96bdb6bb29fe07f349883e2a">getEpochTimeExtNanoseconds</a> () const</td></tr>
+<tr class="memdesc:a89cb6a0d96bdb6bb29fe07f349883e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the extended datetime subsecond portion of the datetime value in nanoseconds.  <a href="#a89cb6a0d96bdb6bb29fe07f349883e2a">More...</a><br /></td></tr>
+<tr class="separator:a89cb6a0d96bdb6bb29fe07f349883e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa180c35c53effbf83ec6f97cda40ba3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#aa180c35c53effbf83ec6f97cda40ba3f">setEpochTimeExt</a> (mama_i64_t seconds, uint32_t nanoseconds) const</td></tr>
+<tr class="memdesc:aa180c35c53effbf83ec6f97cda40ba3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the extended datetime values expressed in seconds since the Epoch (UTC) and nanoseconds since this epoch time.  <a href="#aa180c35c53effbf83ec6f97cda40ba3f">More...</a><br /></td></tr>
+<tr class="separator:aa180c35c53effbf83ec6f97cda40ba3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215b98ae7fa01a5de62eccecf002853b"><td class="memItemLeft" align="right" valign="top">mama_f64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a215b98ae7fa01a5de62eccecf002853b">getEpochTimeSecondsWithCheck</a> () const</td></tr>
 <tr class="memdesc:a215b98ae7fa01a5de62eccecf002853b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the date and time as seconds since the Epoch, (using the UTC timezone).  <a href="#a215b98ae7fa01a5de62eccecf002853b">More...</a><br /></td></tr>
 <tr class="separator:a215b98ae7fa01a5de62eccecf002853b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,6 +227,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af06eb2f0b3f54b86e5b0ca3e2753a198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7712233e00f6c8f808311d05e7242f18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a7712233e00f6c8f808311d05e7242f18">getAsStructTimeVal</a> (struct timeval &amp;result, const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> &amp;tz) const</td></tr>
 <tr class="separator:a7712233e00f6c8f808311d05e7242f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0418479f301c9e20074ae2ce2f032ff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#a0418479f301c9e20074ae2ce2f032ff0">getAsStructTimeSpec</a> (struct timespec &amp;result) const</td></tr>
+<tr class="separator:a0418479f301c9e20074ae2ce2f032ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee5a7299c6394614af1d22a9d7ef9973"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#aee5a7299c6394614af1d22a9d7ef9973">getAsStructTm</a> (struct tm &amp;result) const</td></tr>
 <tr class="separator:aee5a7299c6394614af1d22a9d7ef9973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab169cec5401f97d84fbef24785e5eef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1MamaDateTime.html#ab169cec5401f97d84fbef24785e5eef5">getAsStructTm</a> (struct tm &amp;result, const <a class="el" href="classWombat_1_1MamaTimeZone.html">MamaTimeZone</a> &amp;tz) const</td></tr>
@@ -608,6 +631,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8dd24802134f69963a4f2dcc0f9a637d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd24802134f69963a4f2dcc0f9a637d">&sect;&nbsp;</a></span>getPrecision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mamaDateTimePrecision Wombat::MamaDateTime::getPrecision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5da515d920a7999066e8af43eff427ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5da515d920a7999066e8af43eff427ee">&sect;&nbsp;</a></span>setPrecision()</h2>
 
@@ -619,6 +659,41 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">mamaDateTimePrecision&#160;</td>
           <td class="paramname"><em>precision</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a514f355f185b96afef15387031137d23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514f355f185b96afef15387031137d23">&sect;&nbsp;</a></span>getHints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mamaDateTimeHints Wombat::MamaDateTime::getHints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6942ac5411e091e7e9297bb83cb2eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6942ac5411e091e7e9297bb83cb2eab">&sect;&nbsp;</a></span>setHints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wombat::MamaDateTime::setHints </td>
+          <td>(</td>
+          <td class="paramtype">mamaDateTimeHints&#160;</td>
+          <td class="paramname"><em>hints</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -723,8 +798,50 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2f06028f65f06f3a0aa4625cd26b9e2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f06028f65f06f3a0aa4625cd26b9e2e">&sect;&nbsp;</a></span>setFromStructTimeSpec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wombat::MamaDateTime::setFromStructTimeSpec </td>
+          <td>(</td>
+          <td class="paramtype">struct timespec &amp;&#160;</td>
+          <td class="paramname"><em>inputTimeSpec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the underlying C mamaDateTime from a TimeSpec Struct. </p>
+<p>This will allow for extended date ranges. </p>
+
+</div>
+</div>
+<a id="ad9fa3f3374e2f1f7f2cfab3ffd01c133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fa3f3374e2f1f7f2cfab3ffd01c133">&sect;&nbsp;</a></span>set() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wombat::MamaDateTime::set </td>
+          <td>(</td>
+          <td class="paramtype">struct timeval&#160;</td>
+          <td class="paramname"><em>inputTimeVal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the underlying C mamaDateTime from a TimeVal Struct. </p>
+<p>This will allow for extended date ranges. </p>
+
+</div>
+</div>
 <a id="a0cefdc8f7306655701120a2c1bbda4ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cefdc8f7306655701120a2c1bbda4ff">&sect;&nbsp;</a></span>set()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cefdc8f7306655701120a2c1bbda4ff">&sect;&nbsp;</a></span>set() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1204,6 +1321,83 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af415f1a94c0039a9e1094d76f190c7fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af415f1a94c0039a9e1094d76f190c7fa">&sect;&nbsp;</a></span>getEpochTimeExtSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">mama_i64_t Wombat::MamaDateTime::getEpochTimeExtSeconds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the extended datetime value in whole seconds since the Epoch (UTC). </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of whole seconds since the Epoch. </dd></dl>
+
+</div>
+</div>
+<a id="a89cb6a0d96bdb6bb29fe07f349883e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89cb6a0d96bdb6bb29fe07f349883e2a">&sect;&nbsp;</a></span>getEpochTimeExtNanoseconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Wombat::MamaDateTime::getEpochTimeExtNanoseconds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the extended datetime subsecond portion of the datetime value in nanoseconds. </p>
+<dl class="section return"><dt>Returns</dt><dd>The nanosecond portion of the datetime value. </dd></dl>
+
+</div>
+</div>
+<a id="aa180c35c53effbf83ec6f97cda40ba3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa180c35c53effbf83ec6f97cda40ba3f">&sect;&nbsp;</a></span>setEpochTimeExt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wombat::MamaDateTime::setEpochTimeExt </td>
+          <td>(</td>
+          <td class="paramtype">mama_i64_t&#160;</td>
+          <td class="paramname"><em>seconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>nanoseconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the extended datetime values expressed in seconds since the Epoch (UTC) and nanoseconds since this epoch time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seconds</td><td>The number of seconds since the Epoch. </td></tr>
+    <tr><td class="paramname">nanoseconds</td><td>The number of nanoseconds since the seconds parameter. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a215b98ae7fa01a5de62eccecf002853b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a215b98ae7fa01a5de62eccecf002853b">&sect;&nbsp;</a></span>getEpochTimeSecondsWithCheck()</h2>
 
@@ -1477,6 +1671,24 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0418479f301c9e20074ae2ce2f032ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0418479f301c9e20074ae2ce2f032ff0">&sect;&nbsp;</a></span>getAsStructTimeSpec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wombat::MamaDateTime::getAsStructTimeSpec </td>
+          <td>(</td>
+          <td class="paramtype">struct timespec &amp;&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

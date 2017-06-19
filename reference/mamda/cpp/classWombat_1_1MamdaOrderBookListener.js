@@ -43,6 +43,7 @@ var classWombat_1_1MamdaOrderBookListener =
     [ "setConflateDeltas", "classWombat_1_1MamdaOrderBookListener.html#a0b19000efe1f7135813b810dbe2e78ff", null ],
     [ "getConflateDeltas", "classWombat_1_1MamdaOrderBookListener.html#a2f72b21861b1f4a0462624eaa236a298", null ],
     [ "setConflationInterval", "classWombat_1_1MamdaOrderBookListener.html#a408fe065eeefd1322fb3c2f78751e806", null ],
+    [ "flushConflationOnTopOfBookChange", "classWombat_1_1MamdaOrderBookListener.html#aebb908599e97a504479ac576db5b5662", null ],
     [ "forceInvokeDeltaHandlers", "classWombat_1_1MamdaOrderBookListener.html#ac3349c645be9a131ab64fc81ed203730", null ],
     [ "clearConflatedDeltas", "classWombat_1_1MamdaOrderBookListener.html#a46cdfacfe189842f46e8592eceff6724", null ],
     [ "onMsg", "classWombat_1_1MamdaOrderBookListener.html#a25b4001c57c2a140040baad9f84bbec4", null ],

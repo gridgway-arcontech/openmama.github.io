@@ -1,4 +1,4 @@
 var classWombat_1_1MamdaDataException =
 [
-    [ "MamdaDataException", "classWombat_1_1MamdaDataException.html#aa9f0394b4dac3ab2ce245712fd6524f7", null ]
+    [ "MamdaDataException", "classWombat_1_1MamdaDataException.html#a74c2580fcf4a6bf42f0f64405d23eb57", null ]
 ];

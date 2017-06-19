@@ -101,6 +101,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1a335543d17ecdfa3ef77a63920e6b8"><td class="memItemLeft" align="right" valign="top">static mamaBridge&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1Mama.html#aa1a335543d17ecdfa3ef77a63920e6b8">loadBridge</a> (const char *middleware, const char *path)</td></tr>
 <tr class="memdesc:aa1a335543d17ecdfa3ef77a63920e6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the bridge specified by middleware string using the path specified by the user.  <a href="#aa1a335543d17ecdfa3ef77a63920e6b8">More...</a><br /></td></tr>
 <tr class="separator:aa1a335543d17ecdfa3ef77a63920e6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58bddcad84ca55ba23a9b2ec386ba6b"><td class="memItemLeft" align="right" valign="top">static mamaPayloadBridge&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1Mama.html#ab58bddcad84ca55ba23a9b2ec386ba6b">loadPayloadBridge</a> (const char *payload)</td></tr>
+<tr class="memdesc:ab58bddcad84ca55ba23a9b2ec386ba6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the payload bridge specified by payload string.  <a href="#ab58bddcad84ca55ba23a9b2ec386ba6b">More...</a><br /></td></tr>
+<tr class="separator:ab58bddcad84ca55ba23a9b2ec386ba6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d0d7e212bdea2d57c73074fbfdd271"><td class="memItemLeft" align="right" valign="top">static mamaBridge&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1Mama.html#ae9d0d7e212bdea2d57c73074fbfdd271">getMiddlewareBridge</a> (const char *middleware)</td></tr>
+<tr class="memdesc:ae9d0d7e212bdea2d57c73074fbfdd271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a middleware bridge which matches the middleware string.  <a href="#ae9d0d7e212bdea2d57c73074fbfdd271">More...</a><br /></td></tr>
+<tr class="separator:ae9d0d7e212bdea2d57c73074fbfdd271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a5ca347e3984ba0ab4401a35bf3758"><td class="memItemLeft" align="right" valign="top">static mamaPayloadBridge&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1Mama.html#a52a5ca347e3984ba0ab4401a35bf3758">getPayloadBridge</a> (const char *payload)</td></tr>
+<tr class="memdesc:a52a5ca347e3984ba0ab4401a35bf3758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a payload bridge which matches the payload string.  <a href="#a52a5ca347e3984ba0ab4401a35bf3758">More...</a><br /></td></tr>
+<tr class="separator:a52a5ca347e3984ba0ab4401a35bf3758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f05e65f0ad4f8ea2ebe522539762f04"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWombat_1_1Mama.html#a8f05e65f0ad4f8ea2ebe522539762f04">getVersion</a> (mamaBridge bridgeImpl)</td></tr>
 <tr class="memdesc:a8f05e65f0ad4f8ea2ebe522539762f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version of the mama binary.  <a href="#a8f05e65f0ad4f8ea2ebe522539762f04">More...</a><br /></td></tr>
 <tr class="separator:a8f05e65f0ad4f8ea2ebe522539762f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,6 +291,112 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>mama_status Whether the call was successful or not. </dd></dl>
+
+</div>
+</div>
+<a id="ab58bddcad84ca55ba23a9b2ec386ba6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58bddcad84ca55ba23a9b2ec386ba6b">&sect;&nbsp;</a></span>loadPayloadBridge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static mamaPayloadBridge Wombat::Mama::loadPayloadBridge </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>payload</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load the payload bridge specified by payload string. </p>
+<p>If the bridge has already been loaded then the existing bridge instance will be returned.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payload</td><td>The payload to be loaded.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mamaPayloadBridge The payload bridge loaded. </dd></dl>
+
+</div>
+</div>
+<a id="ae9d0d7e212bdea2d57c73074fbfdd271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d0d7e212bdea2d57c73074fbfdd271">&sect;&nbsp;</a></span>getMiddlewareBridge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static mamaBridge Wombat::Mama::getMiddlewareBridge </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>middleware</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a middleware bridge which matches the middleware string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">middleware</td><td>The middleware to be returned</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mamaBridge The middleware bridge to be returned. Returns NULL if none available. </dd></dl>
+
+</div>
+</div>
+<a id="a52a5ca347e3984ba0ab4401a35bf3758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a5ca347e3984ba0ab4401a35bf3758">&sect;&nbsp;</a></span>getPayloadBridge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static mamaPayloadBridge Wombat::Mama::getPayloadBridge </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>payload</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a payload bridge which matches the payload string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">payload</td><td>The payload to be returned</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mamaBridge The payload bridge to be returned. Returns NULL if none available. </dd></dl>
 
 </div>
 </div>

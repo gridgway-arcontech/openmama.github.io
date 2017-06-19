@@ -5,6 +5,7 @@ var publisher_8h =
     [ "mama_publisherOnCreateCb", "publisher_8h.html#a93c575418580b09cb79f4e86db353429", null ],
     [ "mama_publisherOnDestroyCb", "publisher_8h.html#ac7078176c5235642251d980a0bbae3cb", null ],
     [ "mama_publisherOnErrorCb", "publisher_8h.html#a37afdd42ec2255eae99d09146ed92c9e", null ],
+    [ "mama_publisherOnSuccessCb", "publisher_8h.html#a9f55b736022b4f405ca9f37af0b7294f", null ],
     [ "mamaPublisherCallbacks", "publisher_8h.html#ae7cfacdbe461604a4b2886b647eee4ff", null ],
     [ "mamaPublisherState", "publisher_8h.html#a53f4467cfc20da47f00c9bca33283d91", [
       [ "MAMA_PUBLISHER_UNKNOWN", "publisher_8h.html#a53f4467cfc20da47f00c9bca33283d91aab50f081e43e9b4e3dfa8fc6ad146a97", null ],

@@ -41,6 +41,7 @@ var searchData=
   ['onstartcomplete',['onStartComplete',['../classWombat_1_1MamaStartCallback.html#ab8fceb926edc9c4306b559ebe290925f',1,'Wombat::MamaStartCallback']]],
   ['onstatechanged',['onStateChanged',['../classWombat_1_1MamaSourceStateChangeCallback.html#aebc13e83b3de1072ef12a6083bc5061b',1,'Wombat::MamaSourceStateChangeCallback']]],
   ['onsubscription',['onSubscription',['../classWombat_1_1MamaSubscriptionIteratorCallback.html#a62864194bc7afdf0f5ff1ea892c0d01a',1,'Wombat::MamaSubscriptionIteratorCallback']]],
+  ['onsuccess',['onSuccess',['../classWombat_1_1MamaPublisherCallback.html#a7d4c67e4f9d542e108daf4957b2b0449',1,'Wombat::MamaPublisherCallback']]],
   ['onsymbol',['onSymbol',['../classWombat_1_1MamaSymbolSourceCallback.html#aff08844362e9cbad87320610ee25c8f8',1,'Wombat::MamaSymbolSourceCallback']]],
   ['ontimeout',['onTimeout',['../classWombat_1_1MamaDictionaryCallback.html#a61cce11968f309a252e76c93c5125ecd',1,'Wombat::MamaDictionaryCallback']]],
   ['ontimer',['onTimer',['../classWombat_1_1MamaTimerCallback.html#af0ba2499053f2302fab309a1fdb30920',1,'Wombat::MamaTimerCallback']]],

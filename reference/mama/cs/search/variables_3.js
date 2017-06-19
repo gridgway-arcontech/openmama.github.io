@@ -19,5 +19,6 @@ var searchData=
   ['msgstatus',['MsgStatus',['../classWombat_1_1MamaReservedFields.html#a2044c42cfca169dec06659a1d13802bb',1,'Wombat::MamaReservedFields']]],
   ['msgtotal',['MsgTotal',['../classWombat_1_1MamaReservedFields.html#addd3d629bd10f532dd461d843a058dab',1,'Wombat::MamaReservedFields']]],
   ['msgtype',['MsgType',['../classWombat_1_1MamaReservedFields.html#a0baadfac3cc77b31ea64f26848cde2b1',1,'Wombat::MamaReservedFields']]],
+  ['msuccess',['mSuccess',['../structWombat_1_1MamaPublisher_1_1NativeMethods_1_1PublisherCallbacks.html#ae5142ca2996db15210f4a3c0cec7010c',1,'Wombat::MamaPublisher::NativeMethods::PublisherCallbacks']]],
   ['mtransport',['mTransport',['../classWombat_1_1MamaBasicSubscription.html#a0e49fe81d4e1691e2ef46453c6e8dab1',1,'Wombat::MamaBasicSubscription']]]
 ];
