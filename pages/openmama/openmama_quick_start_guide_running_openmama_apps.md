@@ -82,7 +82,7 @@ First, open two separate terminal instances, and cd into the /opt/openmama direc
 ```bash
 cd /opt/openmama
 
-source config/profile.openmama
+source profile.openmama
 
 mamapublisherc -tport pub -m qpid
 ```
@@ -92,7 +92,7 @@ Then in the second run:
 ```bash
 cd /opt/openmama
 
-source config/profile.openmama
+source profile.openmama
 
 mamasubscriberc -tport sub -m qpid
 ```
